@@ -1,0 +1,116 @@
+{
+  "id": "template_10",
+  "name": "One More Step",
+  "description": "Branded template for the One More Step page (ONE red, MORE white, STEP blue).",
+  "tags": [
+    "onemorestep",
+    "branded",
+    "dark"
+  ],
+  "order": 10,
+  "elements": [
+    {
+      "type": "background",
+      "fill": {
+        "kind": "gradient",
+        "color": "#000000",
+        "colors": [
+          "#090C16",
+          "#151C33"
+        ],
+        "angle": 90
+      },
+      "overlay": {
+        "color": "#000000",
+        "opacity": 0.0
+      },
+      "blur": 0.0,
+      "vignette": 0.35,
+      "photo_kind": "nature"
+    },
+    {
+      "type": "brand",
+      "position": "top-center",
+      "scale": 1.7
+    },
+    {
+      "type": "rect",
+      "box": [
+        0.3,
+        0.155,
+        0.13,
+        0.006
+      ],
+      "color": "#E63946",
+      "opacity": 1.0,
+      "radius": 0.0
+    },
+    {
+      "type": "rect",
+      "box": [
+        0.435,
+        0.155,
+        0.13,
+        0.006
+      ],
+      "color": "#FFFFFF",
+      "opacity": 1.0,
+      "radius": 0.0
+    },
+    {
+      "type": "rect",
+      "box": [
+        0.57,
+        0.155,
+        0.13,
+        0.006
+      ],
+      "color": "#2F6BFF",
+      "opacity": 1.0,
+      "radius": 0.0
+    },
+    {
+      "type": "quote",
+      "box": [
+        0.1,
+        0.22,
+        0.8,
+        0.52
+      ],
+      "font": "Modern",
+      "weight": 700,
+      "color": "#FFFFFF",
+      "align": "center",
+      "valign": "middle",
+      "max_size": 0.09,
+      "min_size": 0.038,
+      "line_spacing": 1.22,
+      "letter_spacing": 0.0,
+      "case": "none",
+      "quote_marks": true,
+      "opacity": 1.0
+    },
+    {
+      "type": "author",
+      "box": [
+        0.1,
+        0.76,
+        0.8,
+        0.05
+      ],
+      "font": "Modern",
+      "color": "#AEB6D0",
+      "align": "center",
+      "valign": "middle",
+      "max_size": 0.032,
+      "min_size": 0.02,
+      "letter_spacing": 0.1,
+      "prefix": "— "
+    },
+    {
+      "type": "brand",
+      "position": "bottom-center",
+      "scale": 0.85
+    }
+  ]
+}

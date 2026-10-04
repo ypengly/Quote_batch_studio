@@ -1,0 +1,93 @@
+{
+  "id": "template_08",
+  "name": "Photo",
+  "description": "Full-screen photo with a bottom gradient and left-aligned overlay text.",
+  "tags": [
+    "photo"
+  ],
+  "order": 8,
+  "elements": [
+    {
+      "type": "background",
+      "fill": {
+        "kind": "photo",
+        "color": "#000000",
+        "colors": [],
+        "angle": 135
+      },
+      "overlay": {
+        "color": "#000000",
+        "opacity": 1.0,
+        "colors": [
+          "#00000000",
+          "#000000D0"
+        ],
+        "angle": 90
+      },
+      "blur": 0.0,
+      "vignette": 0.0,
+      "photo_kind": "sunset"
+    },
+    {
+      "type": "quote",
+      "box": [
+        0.08,
+        0.42,
+        0.84,
+        0.4
+      ],
+      "font": "Modern",
+      "weight": 700,
+      "color": "#FFFFFF",
+      "align": "left",
+      "valign": "bottom",
+      "max_size": 0.095,
+      "min_size": 0.038,
+      "line_spacing": 1.18,
+      "letter_spacing": 0.0,
+      "case": "none",
+      "quote_marks": true,
+      "opacity": 1.0,
+      "shadow": {
+        "blur": 0.012,
+        "dy": 0.006,
+        "opacity": 0.6,
+        "color": "#000000"
+      }
+    },
+    {
+      "type": "rect",
+      "box": [
+        0.08,
+        0.845,
+        0.1,
+        0.006
+      ],
+      "color": "#FFFFFF",
+      "opacity": 1.0,
+      "radius": 0.0
+    },
+    {
+      "type": "author",
+      "box": [
+        0.08,
+        0.86,
+        0.6,
+        0.04
+      ],
+      "font": "Modern",
+      "color": "#EEEEEE",
+      "align": "left",
+      "valign": "middle",
+      "max_size": 0.032,
+      "min_size": 0.02,
+      "letter_spacing": 0.1,
+      "prefix": "— "
+    },
+    {
+      "type": "brand",
+      "position": "top-left",
+      "scale": 1.0
+    }
+  ]
+}

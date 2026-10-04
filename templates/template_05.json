@@ -1,0 +1,117 @@
+{
+  "id": "template_05",
+  "name": "Luxury",
+  "description": "Elegant dark background, gold frame and refined serif type.",
+  "tags": [
+    "luxury",
+    "dark",
+    "emotional"
+  ],
+  "order": 5,
+  "elements": [
+    {
+      "type": "background",
+      "fill": {
+        "kind": "gradient",
+        "color": "#000000",
+        "colors": [
+          "#0C0C0E",
+          "#1D1A16"
+        ],
+        "angle": 90
+      },
+      "overlay": {
+        "color": "#000000",
+        "opacity": 0.0
+      },
+      "blur": 0.0,
+      "vignette": 0.0,
+      "photo_kind": "nature"
+    },
+    {
+      "type": "rect",
+      "box": [
+        0.05,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "color": "#C9A961",
+      "opacity": 1.0,
+      "radius": 0.0,
+      "outline": "#C9A961",
+      "outline_width": 0.004,
+      "no_fill": true
+    },
+    {
+      "type": "rect",
+      "box": [
+        0.07,
+        0.07,
+        0.86,
+        0.86
+      ],
+      "color": "#C9A961",
+      "opacity": 0.5,
+      "radius": 0.0,
+      "outline": "#C9A961",
+      "outline_width": 0.0015,
+      "no_fill": true
+    },
+    {
+      "type": "quote",
+      "box": [
+        0.14,
+        0.2,
+        0.72,
+        0.52
+      ],
+      "font": "Elegant",
+      "weight": 500,
+      "color": "#EBDDB0",
+      "align": "center",
+      "valign": "middle",
+      "max_size": 0.088,
+      "min_size": 0.038,
+      "line_spacing": 1.25,
+      "letter_spacing": 0.01,
+      "case": "none",
+      "quote_marks": true,
+      "opacity": 1.0
+    },
+    {
+      "type": "rect",
+      "box": [
+        0.44,
+        0.76,
+        0.12,
+        0.003
+      ],
+      "color": "#C9A961",
+      "opacity": 1.0,
+      "radius": 0.0
+    },
+    {
+      "type": "author",
+      "box": [
+        0.15,
+        0.78,
+        0.7,
+        0.05
+      ],
+      "font": "Elegant",
+      "color": "#C9A961",
+      "align": "center",
+      "valign": "middle",
+      "max_size": 0.032,
+      "min_size": 0.02,
+      "letter_spacing": 0.2,
+      "prefix": "— "
+    },
+    {
+      "type": "brand",
+      "position": "bottom-center",
+      "scale": 1.0
+    }
+  ]
+}

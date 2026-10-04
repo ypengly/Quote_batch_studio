@@ -1,0 +1,102 @@
+{
+  "id": "template_02",
+  "name": "Cinematic",
+  "description": "Dark cinematic frame with letterbox bars and strong white type.",
+  "tags": [
+    "cinematic",
+    "dark",
+    "emotional"
+  ],
+  "order": 2,
+  "elements": [
+    {
+      "type": "background",
+      "fill": {
+        "kind": "photo",
+        "color": "#000000",
+        "colors": [],
+        "angle": 135
+      },
+      "overlay": {
+        "color": "#000000",
+        "opacity": 0.5
+      },
+      "blur": 0.0,
+      "vignette": 0.55,
+      "photo_kind": "city"
+    },
+    {
+      "type": "rect",
+      "box": [
+        0,
+        0,
+        1,
+        0.1
+      ],
+      "color": "#000000",
+      "opacity": 1.0,
+      "radius": 0.0
+    },
+    {
+      "type": "rect",
+      "box": [
+        0,
+        0.9,
+        1,
+        0.1
+      ],
+      "color": "#000000",
+      "opacity": 1.0,
+      "radius": 0.0
+    },
+    {
+      "type": "quote",
+      "box": [
+        0.1,
+        0.2,
+        0.8,
+        0.6
+      ],
+      "font": "Bold",
+      "weight": 700,
+      "color": "#FFFFFF",
+      "align": "center",
+      "valign": "middle",
+      "max_size": 0.105,
+      "min_size": 0.038,
+      "line_spacing": 1.12,
+      "letter_spacing": 0.0,
+      "case": "none",
+      "quote_marks": true,
+      "opacity": 1.0,
+      "shadow": {
+        "blur": 0.012,
+        "dy": 0.006,
+        "opacity": 0.6,
+        "color": "#000000"
+      }
+    },
+    {
+      "type": "author",
+      "box": [
+        0.1,
+        0.8,
+        0.8,
+        0.05
+      ],
+      "font": "Modern",
+      "color": "#E0E0E0",
+      "align": "center",
+      "valign": "middle",
+      "max_size": 0.032,
+      "min_size": 0.02,
+      "letter_spacing": 0.12,
+      "prefix": "— "
+    },
+    {
+      "type": "brand",
+      "position": "bottom-center",
+      "scale": 1.0
+    }
+  ]
+}

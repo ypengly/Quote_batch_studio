@@ -1,0 +1,115 @@
+{
+  "id": "template_09",
+  "name": "Editorial",
+  "description": "Magazine-style composition with rules and a large quote mark.",
+  "tags": [
+    "editorial",
+    "light",
+    "long"
+  ],
+  "order": 9,
+  "elements": [
+    {
+      "type": "background",
+      "fill": {
+        "kind": "solid",
+        "color": "#EFEBE4",
+        "colors": [],
+        "angle": 135
+      },
+      "overlay": {
+        "color": "#000000",
+        "opacity": 0.0
+      },
+      "blur": 0.0,
+      "vignette": 0.0,
+      "photo_kind": "nature"
+    },
+    {
+      "type": "rect",
+      "box": [
+        0.08,
+        0.08,
+        0.84,
+        0.004
+      ],
+      "color": "#111111",
+      "opacity": 1.0,
+      "radius": 0.0
+    },
+    {
+      "type": "rect",
+      "box": [
+        0.08,
+        0.92,
+        0.84,
+        0.004
+      ],
+      "color": "#111111",
+      "opacity": 1.0,
+      "radius": 0.0
+    },
+    {
+      "type": "text",
+      "text": "“",
+      "box": [
+        0.06,
+        0.06,
+        0.3,
+        0.3
+      ],
+      "font": "Editorial",
+      "weight": 700,
+      "color": "#C8372D",
+      "size": 0.36,
+      "align": "left",
+      "valign": "top",
+      "max_size": 0.36,
+      "min_size": 0.2,
+      "opacity": 1.0
+    },
+    {
+      "type": "quote",
+      "box": [
+        0.1,
+        0.3,
+        0.8,
+        0.46
+      ],
+      "font": "Editorial",
+      "weight": 700,
+      "color": "#141414",
+      "align": "left",
+      "valign": "top",
+      "max_size": 0.085,
+      "min_size": 0.036,
+      "line_spacing": 1.2,
+      "letter_spacing": 0.0,
+      "case": "none",
+      "quote_marks": false,
+      "opacity": 1.0
+    },
+    {
+      "type": "author",
+      "box": [
+        0.1,
+        0.8,
+        0.8,
+        0.05
+      ],
+      "font": "Editorial",
+      "color": "#C8372D",
+      "align": "left",
+      "valign": "middle",
+      "max_size": 0.032,
+      "min_size": 0.02,
+      "letter_spacing": 0.14,
+      "prefix": ""
+    },
+    {
+      "type": "brand",
+      "position": "bottom-right",
+      "scale": 1.0
+    }
+  ]
+}

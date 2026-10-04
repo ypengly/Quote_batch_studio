@@ -1,0 +1,109 @@
+{
+  "id": "template_07",
+  "name": "Bold",
+  "description": "Oversized uppercase typography with graphic elements.",
+  "tags": [
+    "bold",
+    "short"
+  ],
+  "order": 7,
+  "elements": [
+    {
+      "type": "background",
+      "fill": {
+        "kind": "solid",
+        "color": "#FFD60A",
+        "colors": [],
+        "angle": 135
+      },
+      "overlay": {
+        "color": "#000000",
+        "opacity": 0.0
+      },
+      "blur": 0.0,
+      "vignette": 0.0,
+      "photo_kind": "nature"
+    },
+    {
+      "type": "rect",
+      "box": [
+        0,
+        0.86,
+        1,
+        0.14
+      ],
+      "color": "#111111",
+      "opacity": 1.0,
+      "radius": 0.0
+    },
+    {
+      "type": "circle",
+      "box": [
+        0.72,
+        0.06,
+        0.34,
+        0.34
+      ],
+      "color": "#111111",
+      "opacity": 1.0,
+      "outline": "#111111",
+      "outline_width": 0.05,
+      "no_fill": true
+    },
+    {
+      "type": "rect",
+      "box": [
+        0.07,
+        0.07,
+        0.16,
+        0.014
+      ],
+      "color": "#111111",
+      "opacity": 1.0,
+      "radius": 0.0
+    },
+    {
+      "type": "quote",
+      "box": [
+        0.07,
+        0.16,
+        0.86,
+        0.62
+      ],
+      "font": "Bold",
+      "weight": 900,
+      "color": "#111111",
+      "align": "left",
+      "valign": "middle",
+      "max_size": 0.15,
+      "min_size": 0.045,
+      "line_spacing": 1.02,
+      "letter_spacing": 0.0,
+      "case": "upper",
+      "quote_marks": false,
+      "opacity": 1.0
+    },
+    {
+      "type": "author",
+      "box": [
+        0.07,
+        0.79,
+        0.86,
+        0.05
+      ],
+      "font": "Bold",
+      "color": "#111111",
+      "align": "left",
+      "valign": "middle",
+      "max_size": 0.032,
+      "min_size": 0.02,
+      "letter_spacing": 0.1,
+      "prefix": "— "
+    },
+    {
+      "type": "brand",
+      "position": "bottom-right",
+      "scale": 1.0
+    }
+  ]
+}

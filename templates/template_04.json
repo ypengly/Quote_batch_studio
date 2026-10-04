@@ -1,0 +1,103 @@
+{
+  "id": "template_04",
+  "name": "Gradient",
+  "description": "Modern gradient with bold typography.",
+  "tags": [
+    "gradient",
+    "bold",
+    "short"
+  ],
+  "order": 4,
+  "elements": [
+    {
+      "type": "background",
+      "fill": {
+        "kind": "gradient",
+        "color": "#000000",
+        "colors": [
+          "#5B2BFF",
+          "#C81CDE",
+          "#FF5F6D"
+        ],
+        "angle": 125
+      },
+      "overlay": {
+        "color": "#000000",
+        "opacity": 0.0
+      },
+      "blur": 0.0,
+      "vignette": 0.0,
+      "photo_kind": "nature"
+    },
+    {
+      "type": "circle",
+      "box": [
+        0.55,
+        -0.15,
+        0.7,
+        0.7
+      ],
+      "color": "#FFFFFF",
+      "opacity": 0.07
+    },
+    {
+      "type": "circle",
+      "box": [
+        -0.2,
+        0.6,
+        0.6,
+        0.6
+      ],
+      "color": "#FFFFFF",
+      "opacity": 0.06
+    },
+    {
+      "type": "quote",
+      "box": [
+        0.1,
+        0.18,
+        0.8,
+        0.6
+      ],
+      "font": "Bold",
+      "weight": 800,
+      "color": "#FFFFFF",
+      "align": "center",
+      "valign": "middle",
+      "max_size": 0.115,
+      "min_size": 0.038,
+      "line_spacing": 1.1,
+      "letter_spacing": 0.0,
+      "case": "none",
+      "quote_marks": true,
+      "opacity": 1.0,
+      "shadow": {
+        "blur": 0.01,
+        "dy": 0.005,
+        "opacity": 0.25
+      }
+    },
+    {
+      "type": "author",
+      "box": [
+        0.1,
+        0.8,
+        0.8,
+        0.05
+      ],
+      "font": "Modern",
+      "color": "#FFFFFF",
+      "align": "center",
+      "valign": "middle",
+      "max_size": 0.032,
+      "min_size": 0.02,
+      "letter_spacing": 0.1,
+      "prefix": "— "
+    },
+    {
+      "type": "brand",
+      "position": "auto",
+      "scale": 1.0
+    }
+  ]
+}

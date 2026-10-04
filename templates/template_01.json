@@ -1,0 +1,84 @@
+{
+  "id": "template_01",
+  "name": "Minimal",
+  "description": "Large centered typography on a calm paper background.",
+  "tags": [
+    "minimal",
+    "light",
+    "long"
+  ],
+  "order": 1,
+  "elements": [
+    {
+      "type": "background",
+      "fill": {
+        "kind": "solid",
+        "color": "#F4F0E8",
+        "colors": [],
+        "angle": 135
+      },
+      "overlay": {
+        "color": "#000000",
+        "opacity": 0.0
+      },
+      "blur": 0.0,
+      "vignette": 0.0,
+      "photo_kind": "nature"
+    },
+    {
+      "type": "quote",
+      "box": [
+        0.12,
+        0.18,
+        0.76,
+        0.58
+      ],
+      "font": "Minimal",
+      "weight": 400,
+      "color": "#1B1B1B",
+      "align": "center",
+      "valign": "middle",
+      "max_size": 0.1,
+      "min_size": 0.038,
+      "line_spacing": 1.18,
+      "letter_spacing": 0.0,
+      "case": "none",
+      "quote_marks": true,
+      "opacity": 1.0
+    },
+    {
+      "type": "rect",
+      "box": [
+        0.46,
+        0.79,
+        0.08,
+        0.004
+      ],
+      "color": "#1B1B1B",
+      "opacity": 0.8,
+      "radius": 0.0
+    },
+    {
+      "type": "author",
+      "box": [
+        0.15,
+        0.81,
+        0.7,
+        0.05
+      ],
+      "font": "Minimal",
+      "color": "#555555",
+      "align": "center",
+      "valign": "middle",
+      "max_size": 0.032,
+      "min_size": 0.02,
+      "letter_spacing": 0.06,
+      "prefix": "— "
+    },
+    {
+      "type": "brand",
+      "position": "auto",
+      "scale": 1.0
+    }
+  ]
+}

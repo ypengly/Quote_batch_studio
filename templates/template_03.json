@@ -1,0 +1,77 @@
+{
+  "id": "template_03",
+  "name": "Nature",
+  "description": "Landscape background with a soft dark overlay.",
+  "tags": [
+    "nature",
+    "photo"
+  ],
+  "order": 3,
+  "elements": [
+    {
+      "type": "background",
+      "fill": {
+        "kind": "photo",
+        "color": "#000000",
+        "colors": [],
+        "angle": 135
+      },
+      "overlay": {
+        "color": "#000000",
+        "opacity": 0.38
+      },
+      "blur": 0.0,
+      "vignette": 0.3,
+      "photo_kind": "nature"
+    },
+    {
+      "type": "quote",
+      "box": [
+        0.1,
+        0.2,
+        0.8,
+        0.55
+      ],
+      "font": "Elegant",
+      "weight": 500,
+      "color": "#FFFFFF",
+      "align": "center",
+      "valign": "middle",
+      "max_size": 0.1,
+      "min_size": 0.038,
+      "line_spacing": 1.18,
+      "letter_spacing": 0.0,
+      "case": "none",
+      "quote_marks": true,
+      "opacity": 1.0,
+      "shadow": {
+        "blur": 0.012,
+        "dy": 0.006,
+        "opacity": 0.6,
+        "color": "#000000"
+      }
+    },
+    {
+      "type": "author",
+      "box": [
+        0.1,
+        0.78,
+        0.8,
+        0.05
+      ],
+      "font": "Elegant",
+      "color": "#F0F0F0",
+      "align": "center",
+      "valign": "middle",
+      "max_size": 0.032,
+      "min_size": 0.02,
+      "letter_spacing": 0.1,
+      "prefix": "— "
+    },
+    {
+      "type": "brand",
+      "position": "auto",
+      "scale": 1.0
+    }
+  ]
+}

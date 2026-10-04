@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "name": "One More Step",
+  "quotes": [
+    {
+      "id": "820144ba",
+      "text": "You're not behind. There is no schedule everyone else is following.",
+      "author": "",
+      "category": "",
+      "selected": true
+    },
+    {
+      "id": "8d160a85",
+      "text": "You don't need the whole map. You need the next step.",
+      "author": "",
+      "category": "",
+      "selected": true
+    },
+    {
+      "id": "bc02e7cd",
+      "text": "Stop waiting to feel ready. Ready is a myth for people who never start.",
+      "author": "",
+      "category": "",
+      "selected": true
+    },
+    {
+      "id": "3da51b63",
+      "text": "You haven't failed. You've just outgrown a version of yourself.",
+      "author": "",
+      "category": "",
+      "selected": true
+    },
+    {
+      "id": "e9d7c161",
+      "text": "Keep going.",
+      "author": "",
+      "category": "",
+      "selected": true
+    },
+    {
+      "id": "8c6c8499",
+      "text": "Small steps still move you forward.",
+      "author": "",
+      "category": "",
+      "selected": true
+    },
+    {
+      "id": "00e3cc84",
+      "text": "The version of you that gives up never finds out what was on the other side.",
+      "author": "",
+      "category": "",
+      "selected": true
+    },
+    {
+      "id": "38ce8438",
+      "text": "You are allowed to start again, as many times as you need to.",
+      "author": "",
+      "category": "",
+      "selected": true
+    }
+  ],
+  "template_ids": [
+    "template_10",
+    "template_02",
+    "template_04",
+    "template_05"
+  ],
+  "template_mode": "rotate",
+  "typography": {
+    "font_preset": null,
+    "font_family": null,
+    "weight": null,
+    "size_pct": 100,
+    "letter_spacing": null,
+    "line_spacing": null,
+    "align": null,
+    "color": null,
+    "opacity": 100,
+    "case": "none",
+    "quote_marks": true
+  },
+  "brand": {
+    "enabled": true,
+    "name": "One More Step",
+    "color_mode": "per_word",
+    "colors": [
+      "#E63946",
+      "#FFFFFF",
+      "#2F6BFF"
+    ],
+    "logo": "",
+    "position": "bottom-center",
+    "opacity": 90,
+    "size_pct": 100,
+    "font": "Bold",
+    "letter_spacing": 0.14,
+    "legibility_pill": true
+  },
+  "size": {
+    "preset": "Instagram Post (1080x1080)",
+    "width": 1080,
+    "height": 1080
+  },
+  "background": {
+    "folder": "assets/backgrounds",
+    "mode": "random",
+    "category": "Random (all)"
+  },
+  "captions": {
+    "enabled": true,
+    "hashtag_count": 10
+  },
+  "output": {
+    "folder": "output",
+    "format": "PNG",
+    "quality": 92,
+    "filename_mode": "brand",
+    "brand_slug": "one_more_step",
+    "variations": 1,
+    "date_subfolder": true,
+    "save_previews": true
+  },
+  "show_author": true
+}

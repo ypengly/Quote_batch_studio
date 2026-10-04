@@ -1,0 +1,98 @@
+{
+  "id": "template_06",
+  "name": "Soft",
+  "description": "Warm, peaceful colors and clean typography.",
+  "tags": [
+    "soft",
+    "light",
+    "long"
+  ],
+  "order": 6,
+  "elements": [
+    {
+      "type": "background",
+      "fill": {
+        "kind": "gradient",
+        "color": "#000000",
+        "colors": [
+          "#FFE8D6",
+          "#F7C6D0",
+          "#D9C2F0"
+        ],
+        "angle": 125
+      },
+      "overlay": {
+        "color": "#000000",
+        "opacity": 0.0
+      },
+      "blur": 0.0,
+      "vignette": 0.0,
+      "photo_kind": "nature"
+    },
+    {
+      "type": "circle",
+      "box": [
+        0.6,
+        0.05,
+        0.5,
+        0.5
+      ],
+      "color": "#FFFFFF",
+      "opacity": 0.28
+    },
+    {
+      "type": "circle",
+      "box": [
+        -0.15,
+        0.62,
+        0.5,
+        0.5
+      ],
+      "color": "#FFFFFF",
+      "opacity": 0.22
+    },
+    {
+      "type": "quote",
+      "box": [
+        0.12,
+        0.2,
+        0.76,
+        0.55
+      ],
+      "font": "Modern",
+      "weight": 500,
+      "color": "#5B3A4A",
+      "align": "center",
+      "valign": "middle",
+      "max_size": 0.085,
+      "min_size": 0.038,
+      "line_spacing": 1.28,
+      "letter_spacing": 0.0,
+      "case": "none",
+      "quote_marks": true,
+      "opacity": 1.0
+    },
+    {
+      "type": "author",
+      "box": [
+        0.15,
+        0.78,
+        0.7,
+        0.05
+      ],
+      "font": "Modern",
+      "color": "#8A6577",
+      "align": "center",
+      "valign": "middle",
+      "max_size": 0.032,
+      "min_size": 0.02,
+      "letter_spacing": 0.08,
+      "prefix": "— "
+    },
+    {
+      "type": "brand",
+      "position": "auto",
+      "scale": 1.0
+    }
+  ]
+}
